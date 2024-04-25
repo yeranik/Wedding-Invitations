@@ -70,6 +70,7 @@ footer {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
+  padding: 160px 0;
 }
 .content ul {
   padding: 0;
@@ -163,13 +164,6 @@ footer {
   }
 
   .hero {
-  }
-  .text-overlay {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    color: var(--primary-color);
   }
   .project-heading {
     font-size: 44px;
