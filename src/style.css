@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #f9f7fe;
+  --primary-color: #fdfdfd;
   --secondary-color: #6c63ff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
@@ -163,8 +163,12 @@ footer {
     line-height: 56px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  .hero p {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-40%, 60%);
+    color: var(--primary-color);
   }
   .project-heading {
     font-size: 44px;
