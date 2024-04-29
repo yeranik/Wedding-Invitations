@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fdfdfd;
+  --primary-color: #ffd5f4;
   --secondary-color: #6c63ff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
@@ -24,7 +24,7 @@ h2 {
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 nav {
@@ -71,6 +71,7 @@ footer {
   background-color: var(--primary-color);
   text-align: center;
   padding: 160px 0;
+  height: 600px;
 }
 .content ul {
   padding: 0;
@@ -164,6 +165,7 @@ footer {
   }
 
   .hero {
+    padding: 80px 20px;
   }
   .project-heading {
     font-size: 44px;
