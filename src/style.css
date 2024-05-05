@@ -68,10 +68,16 @@ footer {
   max-height: 40px;
 }
 .hero {
-  background-color: #faf6ee;
   text-align: center;
-  padding: 160px 0;
+  position: relative;
+  display: inline-block;
   height: 600px;
+}
+.textimage {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .content ul {
   padding: 0;
@@ -164,9 +170,6 @@ footer {
     line-height: 56px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .project-heading {
     font-size: 44px;
     line-height: 56px;
