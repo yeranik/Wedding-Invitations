@@ -57,6 +57,7 @@ nav li.active a {
 
 footer {
   padding: 80px 20px;
+  text-align: center;
 }
 
 .greeting {
@@ -166,6 +167,31 @@ footer {
   font-size: 48px;
 }
 
+.wed-countdown {
+  color: #272142;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wed-countdown h1 {
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.wed-countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.wed-countdown li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 44px;
@@ -185,5 +211,16 @@ footer {
   }
   .separador {
     padding: 0%;
+  }
+  .wed-countdown h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  .wed-countdown li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  .wed-countdown li span {
+    font-size: calc(3.375rem * var(--smaller));
   }
 }
