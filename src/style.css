@@ -57,7 +57,7 @@ nav li.active a {
 }
 
 footer {
-  padding: 80px 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
@@ -195,6 +195,10 @@ footer {
 .wed-countdown li span {
   display: block;
   font-size: 4.5rem;
+}
+
+.countdownlist {
+  padding: 0;
 }
 
 @media (max-width: 600px) {
