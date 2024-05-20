@@ -237,3 +237,9 @@ footer {
     font-size: calc(3.375rem * var(--smaller));
   }
 }
+
+@media (max-width: 700 px) {
+  .heroimage {
+    height: 700px;
+  }
+}
