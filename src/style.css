@@ -61,6 +61,11 @@ footer {
   text-align: center;
 }
 
+.heroimage {
+  width: 1080px;
+  height: 1920px;
+}
+
 .greeting {
   font-family: var(--default-font-family);
   font-weight: normal;
