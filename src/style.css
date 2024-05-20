@@ -238,7 +238,7 @@ footer {
   }
 }
 
-@media (max-width: 700 px) {
+@media (max-width: 700px) {
   .heroimage {
     height: 800px;
   }
