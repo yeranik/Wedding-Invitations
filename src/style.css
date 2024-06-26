@@ -205,6 +205,11 @@ footer {
   font-size: 40px;
 }
 
+.heroimagetext {
+  font-weight: 1.5;
+  color: antiquewhite;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 44px;
