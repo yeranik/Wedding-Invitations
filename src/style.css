@@ -81,7 +81,7 @@ footer {
 }
 .textimage {
   position: absolute;
-  top: 70%;
+  top: 90%;
   left: 50%;
   right: -30%;
   transform: translate(-50%, -50%);
@@ -203,11 +203,6 @@ footer {
 
 .schedule {
   font-size: 40px;
-}
-
-.heroimagetext {
-  font-weight: bolder;
-  color: black;
 }
 
 @media (max-width: 600px) {
