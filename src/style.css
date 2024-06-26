@@ -206,8 +206,8 @@ footer {
 }
 
 .heroimagetext {
-  font-weight: 1.5;
-  color: antiquewhite;
+  font-weight: bolder;
+  color: black;
 }
 
 @media (max-width: 600px) {
