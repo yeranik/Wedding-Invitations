@@ -234,7 +234,7 @@ footer {
   }
 
   .wed-countdown li span {
-    font-size: calc(3.375rem * var(--smaller));
+    font-size: calc(3.37rem * var(--smaller));
   }
 }
 
