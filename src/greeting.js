@@ -15,9 +15,9 @@ console.log("tickets", tickets);
 if (name1 && name2) {
   // Update the webpage with personalized content for two people
   document.getElementById("greeting").textContent = `${name1} & ${name2} `;
-  document.getElementById("tickets").innerText = `(${tickets})PERSONAS`;
+  document.getElementById("ticket").innerText = `(${tickets})PERSONAS`;
 } else {
   // Update the webpage with a generic greeting
   document.getElementById("greeting").textContent = `${name1} `;
-  document.getElementById("tickets").innerText = `(${tickets})PERSONA`;
+  document.getElementById("ticket").innerText = `(${tickets})PERSONA`;
 }
