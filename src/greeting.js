@@ -6,7 +6,7 @@ console.log("urlParams", urlParams);
 const name1 = urlParams.get("name1");
 const name2 = urlParams.get("name2");
 
-console.log("name1", name1);
+console.log("doc", document.getElementById("greeting"));
 console.log("name2", name2);
 
 if (name1 && name2) {
