@@ -1,3 +1,4 @@
+console.log("lo que sea");
 const queryString = window.location.search;
 console.log("queryString", queryString);
 const urlParams = new URLSearchParams(queryString);
